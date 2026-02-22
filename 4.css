@@ -3,6 +3,7 @@ body {
 
 }
 .navbar {
+    z-index:2;
     position:fixed;
     top:0;
     width:100%;
@@ -41,4 +42,29 @@ body {
 }
 #siema5::before {
     content:'\1F387' 
+}
+#home2 {
+     background-image: url(newunion_org-jersey-5457156_1920.jpg);
+    background-size:cover;
+    height: 60vh;
+    width: 100vw;
+    position: absolute;
+    top:0vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index:-1
+}
+.carousel {
+    position:absolute;
+    top:70vh;
+    left:75vh;
+    width:400px;
+}
+.tekst1 {
+    font-size:10vh;
+    position: absolute;
+    top:60vh;
+    width:40vw;
+    color:rgb(17, 36, 92);
 }
