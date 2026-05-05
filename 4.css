@@ -1,5 +1,5 @@
 body {
-    font-size:1.6rem
+    font-size:1.6rem;
 
 }
 .navbar {
@@ -12,10 +12,10 @@ body {
 #home {
     background-image: url(newunion_org-jersey-5457156_1920.jpg);
     background-size:cover;
-    height: 60vh;
-    width: 100vw;
+    height: 60%;
+    width: 100%;
     position: absolute;
-    top:440vh;
+    top:440%;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -46,8 +46,8 @@ body {
 #home2 {
      background-image: url(newunion_org-jersey-5457156_1920.jpg);
     background-size:cover;
-    height: 60vh;
-    width: 100vw;
+    height: 60%;
+    width: 100%;
     position: absolute;
     top:0vh;
     background-position: center;
@@ -57,14 +57,37 @@ body {
 }
 .carousel {
     position:absolute;
-    top:70vh;
-    left:75vh;
+    top:70%;
+    left:35%;
     width:400px;
+    z-index: 0;
 }
 .tekst1 {
     font-size:10vh;
     position: absolute;
-    top:60vh;
-    width:40vw;
+    top:60%;
+    width:40%;
     color:rgb(17, 36, 92);
+}
+
+
+@media(max-width:600px){
+    .carousel{
+        position:absolute;
+    top:130%;
+    left:0%;
+    width:300px;
+    }
+    .siema3 {
+    font-size:3.4rem;
+    position:relative;
+    left:0%;
+    color:orange
+}
+.collapse{
+    font-size:1.8rem
+}
+body{
+    overflow-x:hidden;
+}
 }
