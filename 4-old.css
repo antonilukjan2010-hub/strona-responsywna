@@ -8,6 +8,20 @@ body {
     top:0;
     width:100%;
 }
+
+#home {
+    background-image: url(newunion_org-jersey-5457156_1920.jpg);
+    background-size:cover;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top:440%;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index:-1
+}
+
 .siema {
     font-size:1.6rem
 }
@@ -29,6 +43,19 @@ body {
 #siema5::before {
     content:'\1F387' 
 }
+#home2 {
+     
+    background-image: url(newunion_org-jersey-5457156_1920.jpg);
+    background-size:cover;
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    top:0vh;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index:-1
+}
 
 .justAfterHeroBackground {
     margin-top: 60%;
@@ -36,24 +63,17 @@ body {
 
 .carousel {
     /* position:absolute; */
+    top:70%;
+    left:35%;
+    width:400px;
     z-index: 0;
 }
 .tekst1 {
     font-size:10vh;
     /* position: absolute; */
     /* top:60%; */
-    text-align: center;
+    width:40%;
     color:rgb(17, 36, 92);
-}
-
-#carouselExample {
-    /* max-height: 66vh; */
-    max-width: 25vw;
-    margin: auto;
-}
-
-#carouselExampleContainer {
-
 }
 
 
@@ -77,14 +97,3 @@ body{
     overflow-x:hidden;
 }
 }
-
-
-#hero-background {
-    background-image: url(newunion_org-jersey-5457156_1920.jpg);
-    height: 60vh;
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-
