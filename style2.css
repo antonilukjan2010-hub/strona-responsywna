@@ -1,0 +1,26 @@
+.obraz1 {
+    width:5%
+}
+.navbar {
+    font-size: 3.4rem;
+    color:white;
+}
+.navbar2 {
+    font-size: 2.4rem;
+    color:white;
+}
+.carousel-item {
+    height:600px;
+    width:100vw;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-img-one {
+    background-image: url("newunion_org-jersey-5457156.jpg");
+}
+.carousel-img-two {
+    background-image: url("newunion_org-jersey-5457146.jpg");
+}
+.carousel-img-three {
+    background-image: url("newunion_org-jersey-5457183.jpg");
+}
