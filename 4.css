@@ -23,7 +23,7 @@ body {
 .siema3 {
     font-size:4.8rem;
     position:relative;
-    left:30%;
+    left:0%;
     color:orange
 }
 #siema5::before {
@@ -37,6 +37,8 @@ body {
 .carousel {
     /* position:absolute; */
     z-index: 0;
+    position: relative;
+    left:450px;
 }
 .tekst1 {
     font-size:10vh;
@@ -52,17 +54,20 @@ body {
     margin: au;
 }
 
-#carouselExampleContainer {
+.card-img-top{
+    max-width: 300px;;
+}
+.card{
+    position: relative;
+    left:800px;
 
 }
-
-
 @media(max-width:600px){
     .carousel{
-        position:absolute;
+        position:relative;
     top:130%;
-    left:0%;
-    width:300px;
+    left:10%;
+    min-width: 300px;
     }
     .siema3 {
     font-size:3.4rem;
@@ -75,6 +80,11 @@ body {
 }
 body{
     overflow-x:hidden;
+}
+.card{
+    position: relative;
+    left:0px;
+
 }
 }
 
